@@ -16,6 +16,7 @@ public class HealthyPerson extends Person
 		return compareTo(p);
 	}
 	
+	@Override
 	public String toString()
 	{
 		return String.format("%s In for %s", getName(), reason);
