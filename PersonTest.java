@@ -1,16 +1,8 @@
-import static org.junit.Assert.*;
-
 import org.junit.Assert;
 import org.junit.Test;
 
 public class PersonTest {
-
-	@Test
-	public void testPerson() {
-		Person a = new SickPerson("Mom", 21, 5);
-		Person b = new HealthyPerson("Dad", 22, "Check up");
-		
-	}
+	
 
 	@Test
 	public void testGetName() {

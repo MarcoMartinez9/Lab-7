@@ -6,6 +6,7 @@
  */
 public abstract class Person implements Comparable<Person>
 {
+
 	// Note: private variables should be documented, but don't require Javadoc.
 	private String name;
 
