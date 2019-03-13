@@ -11,9 +11,16 @@ public class HealthyPerson extends Person
 
 
 	@Override
-	protected int compareToImpl(Person p) 
+	protected int compareToImpl(Person o) 
 	{
-		return compareTo(p);
+		if(!(o instanceof HealthyPerson))
+		{
+		return 0;
+		}
+		else
+		{
+			return this.getName().compareToIgnoreCase(o.getName());
+		}
 	}
 	
 	@Override
